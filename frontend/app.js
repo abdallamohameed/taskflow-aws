@@ -1,5 +1,4 @@
-const API_URL = "http://localhost:3000/api/tasks";
-
+const API_URL = "/api/tasks";
 
 const taskInput = document.getElementById("taskInput");
 const addTaskButton = document.getElementById("addTaskButton");
