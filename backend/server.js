@@ -127,6 +127,6 @@ app.delete("/api/tasks/:id", (req, res) => {
 |--------------------------------------------------------------------------
 */
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`TaskFlow API running on port ${PORT}`);
 });
